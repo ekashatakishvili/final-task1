@@ -1,0 +1,140 @@
+.site-title {
+    color: white;
+    font-family: Antonio;
+    font-size: 28px;
+    margin:16px 0 16px 24px;
+    letter-spacing: -1.05px;
+    
+  }
+  
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+  }
+  
+  .head-info {
+    display: flex;
+    padding-bottom:12px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .topic-breaker, .topic-breaker-2{
+    opacity: 0.2;
+    mix-blend-mode: normal;
+    background-color: #fff;
+  }
+  .topic-breaker-1, .content-number{
+    display:none;
+  }
+   
+  .overview,
+  .structure,
+  .surface {
+    margin: 24px 20px 0px 20px;
+    /* padding: 10px; */
+    font-size: 12px;
+    font-weight: 700;
+    font-family: League Spartan;
+    opacity: 0.5;
+    text-align: center;
+  }
+  
+  .head-info-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .overview-info.active .overview-highlight, 
+   .structure-info.active .structure-highlight, 
+   .surface-info.active .surface-highlight{
+    width:80px;
+    height:4px;
+    align-items: center;
+    margin-top: 17px;
+   background-color:  rgb(65, 158, 187)
+  }
+  .planet-name{
+    font-family: Antonio;
+    font-size: 40px;
+  
+  }
+  .planet-description a {
+    text-decoration: underline;
+  }
+  .planet-description {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .link {
+    color: gray;
+    font-size: 13px;
+    font-family: League Spartan;
+  }
+  .short-description {
+    text-align: center;
+    margin: 16px 24px 32px 24px;
+    font-size: 15px;
+    line-height: 22px;
+    font-family: League Spartan;
+    font-weight: 400;
+  }
+  
+  .planet-picture {
+    align-self: center;
+    margin: 95px;
+    width: 111px;
+    height: 111px;
+  }
+  
+  .info {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 24px 48px 24px;
+  }
+  .info-container {
+    border: 1px solid white;
+    height: 48px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .info-text {
+    color: gray;
+    margin-left: 24px;
+    font-size:14px;
+    font-family: League Spartan;
+  }
+  
+  .info-number {
+    color: white;
+    margin-right: 24px;
+    font-size:20px;
+    font-family: Antonio;
+  }
+  
+  .planet-picture-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .geology-pic {
+    position:absolute;
+    left:145px;
+    width:80px;
+    height:90px;
+    top: 280px;
+  }

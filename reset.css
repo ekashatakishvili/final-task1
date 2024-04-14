@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(/Final/assets/images/background-stars.svg);
+    background-color: #070724; 
+    background-size: cover;
+    position:relative;
+  
+  }
+  @font-face {
+    font-family: Antonio;
+    src: url(/Final/assets/kJEqBuEW6A0lliaV_m88ja5TwvZwLZmXD4Zh.woff2);
+  }
+  @font-face {
+    font-family: League Spartan;
+    src: url(/Final/assets/kJEqBuEW6A0lliaV_m88ja5TwvZwLZmXD4Zh.woff2);
+  }
+  
+  
+  ul, ol{
+    list-style-type: none;
+    text-decoration: none;
+    
+  }
+  
+  button{
+    border: none;
+    background: none;
+    margin-top: 15px;
+    margin-right:24px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: unset;
+  }
+  
+  img {
+   
+    height: auto;
+  }
+  
+  nav {
+    display: none;
+  }
+  
+  hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+  .main-nav.show {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index:1;
+    position: absolute;
+    background-color:rgb(7, 7, 36);
+    width:100%;
+    height:100%;
+    bottom:0%;
+    top:70px;
+    padding-top: 30px;;
+    left:0;
+    
+     color:white;
+  }
+  
+  
+  
+  .planet-hr {
+    margin-left:24px;
+    margin-right:24px;
+    margin-bottom: 22px;
+    opacity: 0.2px;;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap:15px;
+      margin-top:10px;
+    min-width:100%;
+    max-width: 767px;
+  }
+  
+  
+  .nav-items img {
+    width:4px;
+    height: 8px;
+    margin-left: auto;
+    margin-right: 32px;
+    margin-top: 5px;
+    
+  }
+  
+  .nav-items h3 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: League Spartan;
+  }
+   .circle {
+    width:20px;
+    height:20px;
+    border-radius: 10px;
+    margin-bottom:23px;
+    margin-left: 24px;
+    
+  }
+  .circle-mercury {
+    background-color:rgb(65, 158, 187);
+  }
+  .circle-venus{
+    background-color: rgb(247, 204, 127);
+  }
+  .circle-earth {
+    background-color: rgb(84, 91, 254);
+  }
+  .circle-mars {
+    background-color: rgb(255, 106, 69);
+  }
+  .circle-jupiter {
+    background-color: rgb(236, 173, 122);
+  }
+  
+  .circle-saturn{
+    background-color: rgb(252, 203, 107);
+  }
+  .circle-uranus {
+    background-color: rgb(101, 240, 213);
+  }
+  .circle-neptune {
+    background-color: rgb(101, 240, 213);
+  }

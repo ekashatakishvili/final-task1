@@ -1,0 +1,137 @@
+
+@media all and (min-width: 768px) {
+    header {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header-title {
+        margin: 16px 0 0 24px;
+    }
+    .planets-list, li {
+        display: flex;
+        margin: 0 0 20px 0;
+    }
+        .burger {
+            display: none;
+        }
+        .second-hr {
+            display: none;
+        }
+        .info-bts-list {
+            display: none;
+        }
+        .planet-img {
+            width: 270px;
+            height: 270px;
+        }
+        /* .information-buttons:focus {
+            background-color: rgb(65, 158, 187); 
+        } */
+        .some-info {
+            display: flex;
+        }
+        .stuff {
+            text-align: start;
+        }
+        .last-div {
+            flex-direction: row;
+            justify-content: center;
+        }
+        .last-names {
+            font-size: 12px;
+            margin-left: 15px;
+        }
+        .last-container {
+            border: 1px solid rgba(255, 255, 255, .2);
+            width: 162px;
+            height: 86px;
+            padding-left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 24px 0 24px;
+            padding-left: 24px;
+            text-align: justify;
+        }
+        #rotation, #revolution, #radius, #temperature {
+            font-size: 25px;
+        }
+        .last-names {
+            margin: 0;
+        }
+        .last-div {
+            display:flex;
+            justify-content: center;
+            text-align: normal;
+        }
+        .geology-img {
+            top: 370px;
+            left: 320px;
+            width: 135px;
+            height: 200px;
+        }
+
+}
+@media all and (min-width: 1440px) {
+    header {
+        justify-content: space-between;
+        flex-direction: row;
+        margin: 0 41px 0 32px;
+    }
+    .planetss.active {
+        border-top: 4px solid rgb(65, 158, 187);
+        }
+    .planet-img {
+        width: 290px;
+        height: 290px;
+        margin-left: 150px;
+    }
+    .selected-divs {
+        display: flex;
+        background-color: none;
+    }
+    .planets-list {
+        margin-top: 0;
+    }
+    .planet-name {
+        font-size: 80px;
+    }
+    .paragraph {
+        opacity: .5;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        margin: 126px 165px 0 165px;
+        justify-content: space-between;
+        text-align: start;
+    }
+    .everything {
+        flex-direction: column;
+        width: 413px;
+    }
+    .information-buttons {
+        width: 348px;
+        height: 38px;
+    }
+    .planet-img, .everything, .last-div {
+        flex-wrap: wrap;
+    }
+    .last-container {
+        width: 247px;
+        height: 126px;}
+    .last-div {
+        margin-top: 55px;
+        gap: 22px;}
+    #rotation, #revolution, #radius, #temperature {
+        font-size: 40px;
+    }
+    .last-container {
+        margin: 0;}
+    .geology-img {
+        top: 480px;
+        left: 380px;
+        width: 165px;
+    }
+}

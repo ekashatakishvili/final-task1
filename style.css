@@ -1,0 +1,212 @@
+/* header */
+header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+.header-title {
+    font-size: 28px;
+    font-family: "Antonio", sans-serif;
+    margin: 16px 0 16px 24px;
+    font-weight: 400;
+    color: white;
+}
+.planets-list {
+    list-style: none;;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    gap: 20px;
+    font-family: "League Spartan", sans-serif;
+    display: none;
+}
+.planets-link {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 2px 0 20px 24px;
+    color: white;
+}
+.planetss.active {
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color:  rgb(65, 158, 187);
+    border-top: none;
+}
+.planetss {
+    padding-top: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-hr {
+    margin:  0 24px 22px 24px;
+}
+/* burger */
+.planets-list-circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin: 0 0 23px 24px;
+}
+.burger-bts-list {
+    position: absolute;
+    padding-top: 44px;
+    top: 70px;
+    font-size: 20px;
+    font-family: "League Spartan", sans-serif;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    display: none;
+}
+.planetss-2 {
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+}
+.burger-bts-list.show {
+    display: block;
+} 
+.planets-list-circle.mercury {
+    background-color: rgb(65, 158, 187);
+}
+.planets-list-circle.venus {
+    background-color: rgb(247, 204, 127);
+}
+.planets-list-circle.earth {
+    background-color: rgb(84, 91, 254);
+}
+.planets-list-circle.mars {
+    background-color: rgb(255, 106, 69);
+}
+.planets-list-circle.jupiter {
+    background-color: rgb(236, 173, 122);
+}
+.planets-list-circle.saturn {
+    background-color: rgb(252, 203, 107);
+}
+.planets-list-circle.uranus {
+    background-color: rgb(101, 240, 213);
+}
+.planets-list-circle.neptune {
+    background-color: rgb(73, 126, 250);
+}
+/* /burger */
+.info-bts-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "League Spartan", sans-serif;
+    font-size: 17px;
+    color: white;
+}
+.info-bts {
+    color: #fff;
+    opacity: .5;
+    list-style: none;
+    margin: 24px 20px 24px 20px;
+    justify-content: space-between;
+    font-weight: 700;
+}
+/* /header */
+/* main */
+.main-img {
+    text-align: center;
+    justify-content: space-between;
+}
+.planet-img {
+    width: 111px;
+    height: 111px;
+    margin: 95px;
+    position: relative;
+}
+.geology-img {
+    position: absolute;
+    width: 80px;
+    height: 90px;
+    left: 145px;
+    top: 280px;
+}
+.everything {
+    display: flex;
+    text-align: center;
+}
+.stuff {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 39px 39px 0 39px;
+}
+.planet-name {
+    font-size: 40px;
+    font-family: "Antonio", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.paragraph {
+    margin: 16px 24px 32px 0;
+    color: #fff;
+    font-size: 15px;
+    font-family: "League Spartan", sans-serif;
+    line-height: 22px;
+}
+.wiki-source, .wiki {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    font-family: "League Spartan", sans-serif;
+}
+.numbers {
+    opacity: .5;
+    margin: 0px 17px 0 20px;
+}
+.information-buttons {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, .2);
+    margin: 24px 20px 0 20px;
+    height: 40px;
+    width: 281px;
+    text-align: left;
+    font-family: "League Spartan", sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: none;
+}
+/* .information-buttons.clicked {
+    background-color: gray;
+} */
+
+.information-buttons:hover{background-color:gray}
+
+/* last div */
+.last-div {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 24px 48px 24px;
+    width: 100%;
+    gap: 8px;
+}
+.last-container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    color: #fff;
+    height: 46px;
+    padding-right: 24px;
+    align-items: center;
+}
+.last-names {
+    opacity: .5;
+    font-size: 14px;
+    font-family: "League Spartan", sans-serif;
+    margin-left: 24px;
+}
+.some-info {
+    display: none;
+}
+#rotation, #revolution, #radius, #temperature {
+    font-size: 20px;
+    font-family: "Antonio", sans-serif;  
+}

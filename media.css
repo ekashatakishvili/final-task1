@@ -1,0 +1,225 @@
+
+@media all and (min-width: 768px){
+    .burger-btn,   .circle, .nav-items img, .planet-hr, .overview-highlight, .structure-highlight, .surface-highlight {
+      display: none;
+    }
+  
+    .topic-breaker-2 {
+      display: none;
+    }
+    .middle-content{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .planet-picture {
+      grid-row: 1;
+      grid-column: 1/3;
+      margin:95px;
+      width:270px;
+      height:270px;
+      margin-left:115%
+     
+    }
+  
+    .overview-info.active, 
+    .structure-info.active, 
+    .surface-info.active {
+    
+    background-color:  rgb(65, 158, 187)
+   }
+  
+    .planet-text-and-options{
+      grid-row-start: 2;
+      grid-column-start: 1;
+      margin-top: 24px;
+      text-align: normal;
+    }
+    .short-description {
+      text-align: start;
+      margin-left: 0;
+    }
+    .head-info{
+      grid-row-start: 2;
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+    
+    }
+    .head-info-options{
+      display:flex;
+      flex-direction: row;
+      font-size: 12px;
+       margin-bottom: 10px;
+      margin:24px 20px 0px 24px;
+      width: 281px;
+      height: 40px;
+      border:  1px solid gray;
+      gap:10px;
+     justify-content: start;
+    }
+  
+    .content-number {
+      display:inline-block;
+      margin-left:17px;
+      margin-right:20px;
+      color:gray;
+    }
+  
+  .overview,.structure,.surface {
+    margin:0;
+    color:white;
+  }
+  
+  .overview-highlight.active, .structure-highlight.active, .surface-highlight.active{
+    width:80px;
+    height:4px;
+    align-items: center;
+    margin-top: 17px;
+   background-color:  rgb(65, 158, 187)
+  }
+  
+    .info {
+      grid-row-start: 3;
+      grid-column: span 2;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap:22px;
+      
+    }
+    .info-container {
+      width:164px;
+      height:88px;
+      border: 1px solid rgba(255,255,255,.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: normal;
+    }
+  
+    .info-container .info-text {
+      margin-left:15px;
+      margin-bottom: 8px;
+    }
+   .info-container .info-number {
+    font-family: Antonio;
+    font-size: 25px;
+    margin-left: 15px;
+    letter-spacing: 0.75px;
+   }
+  
+  
+    .main-nav{
+      display: flex;
+      justify-content: space-evenly;
+      gap: 15px;
+      color:white;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      /* font-size-adjust:initial; */
+    }
+  
+    .header-bar{
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      
+    }
+    .nav-items{
+      display: flex;
+      flex-direction: row;
+    }; 
+    .nav-items h3 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      text-align: center;
+      letter-spacing: 1px;
+      
+    }
+    
+  
+    .planet-text-and-options{
+      display: flex;
+      justify-content: space-evenly;
+    }
+   
+  
+  
+    .planet-description {
+      text-align:start;
+      align-items: flex-start;
+      margin-left:39px;
+    }
+  
+   
+    .planet-arrow {
+      display:none;
+    }
+    .info {
+      display: flex;
+      gap:22px;
+    }
+  
+  }
+  
+  @media  all and (min-width:1439px){
+    .header-bar{
+      display: flex;
+      flex-direction: row;
+      align-items:center;
+      margin-right: 41px;
+      margin-left: 32px;
+    }
+    .middle-content{
+      margin-top: 126px;
+      margin-left:165px;
+      margin-right: 165px;
+      display: grid;
+      grid-template-columns: 300 px 1fr;
+      }
+    .planet-picture {
+      grid-column: 1/2;
+      grid-row: 1/2;
+      margin-left: 10px;
+    }
+  
+    .planet-text-and-options{
+      grid-row:1/2;
+      grid-column: 2/3;
+      margin-bottom: 40px;
+    }
+    
+    .head-info{
+      grid-row:1/2;
+      grid-column: 2/3;
+      margin-top: 150px;
+      margin-left: 20px;
+      align-items: start;
+    
+    }
+    .head-info-options {
+      cursor: pointer;
+    }
+    .head-info-options:hover {
+      background-color: gray;
+    }
+    /* .overview:hover, .structure:hover, .surface:hover{
+      background-color: gray;
+    } */
+    .info {
+     margin-top: 55px;
+    }
+    .info-container {
+      width:255px;
+      height:128px;
+    }
+  
+   .info-container .info-number {
+    font-family: Antonio;
+    font-size: 35px;
+   
+   }
+  }
+  
